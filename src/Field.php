@@ -48,4 +48,10 @@ class Field extends BaseField
         $this->array_sortable = true;
         return $this;
     }
+
+    public function divider()
+    {
+        $this->type = 'divider';
+        return $this;
+    }  
 }
